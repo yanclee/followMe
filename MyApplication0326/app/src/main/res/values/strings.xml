@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Follow Me</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">搜尋</string>
+    <string name="action_news">最新消息</string>
+    <string name="action_settings">設定</string>
+    <string name="action_about">關於</string>
+    <string name="action_exit">退出</string>
+</resources>

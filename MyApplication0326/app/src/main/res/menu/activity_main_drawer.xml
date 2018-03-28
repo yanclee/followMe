@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myCard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="我的名片" />
+        <item
+            android:id="@+id/nav_cardList"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="名片清單" />
+        <item
+            android:id="@+id/nav_actList"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="活動列表" />
+        <item
+            android:id="@+id/nav_actMap"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="活動地圖" />
+
+        <item
+            android:id="@+id/nav_qrCode"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="QR Code" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="設定" />
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="關於" />
+        </menu>
+    </item>
+
+</menu>
